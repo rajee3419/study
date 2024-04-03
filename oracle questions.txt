@@ -1,0 +1,246 @@
+1. You want to store the backup of a database in Object Storage for a long period of time due to mandatory compliance.
+
+Which approach should you use?
+Very large data sheets
+Content repository
+Backup/archive (*)
+Big data/Hadoop
+ Correct
+ 
+2. You want to use an orchestration service that can reduce time and cost to build modern cloud native applications.
+
+Which service should you use for this?
+Data flow
+API gateway
+Data science
+Container Engine for Kubernetes (OKE) (*)
+Docker
+Oracle Cloud Infrastructure Registry (OCIR)
+ Correct
+ 
+3. Which two infrastructure options can you use for deploying an Oracle Autonomous Database?
+VM on Oracle Cloud Infrastructure
+Bare metal on Oracle Cloud Infrastructure
+Shared Exadata infrastructure (*)
+Dedicated Exadata infrastructure (*)
+Autonomous Database Engineered System
+
+4. Which statement is FALSE about Oracle Cloud Infrastructure compartments?
+Resources and compartments can be added and deleted any time.
+Resources can be moved from one compartment to another.
+Compartments cannot be nested. (*)
+Each OCI resource belongs to a single compartment.
+
+5. Which three are the control planes on which a Compute control plane depends?
+Networking (*)
+Block volumes (*)
+Functions
+Performance
+Application
+Object Storage (*)
+
+6. You want to deploy an application on Oracle Cloud Infrastructure (OCI) and you need multiple virtual machines, block storage, databases, a load balancer, and a web application firewall.
+
+What service should you use to host this application?
+Software as a Service (SaaS)
+Platform as a Service (PaaS)
+Function as a Service (FaaS)
+Infrastructure as a Service (IaaS) (*)
+
+7. What does vertical scaling mean?
+Changing to a larger or smaller shape (*)
+Enabling disaster recovery
+Providing fault tolerance
+Adding additional compute instances
+
+8. You want to track the activities performed by different apps on the services and provide operation insights.
+
+Which Observability and Management service would you use to monitor them?
+Monitoring
+Logging
+Analytics Cloud
+Logging Analytics (*)
+Health check
+
+9. Which three are Oracle's responsibilities in the shared security model in Oracle Cloud Infrastructure?
+Endpoints
+Software (*)
+Patching
+Data
+Hardware (*)
+IAM
+Networking (*)
+
+10. Which two statements are true about a Virtual Cloud Network (VCN)?
+A subnet for a VCN can be defined in different availability domains (ADs). (*)
+A VCN cannot connect to another VCN.
+A VCN can be used with only one DB system.
+A VCN can reside only in a single region but can cross multiple ADs. (*)
+
+11. Which Oracle Cloud Infrastructure capability can you use to protect against failures within an availability domain?
+Automatic backups
+Regions
+Fault domains (*)
+Data plane
+
+12. You want to restrict direct access to resources with public endpoints, and you also want to limit the time available to access resources.
+
+Which service should you use to achieve this?
+WAF
+Bastion (*)
+Cloud Guard
+Vault
+Security zone
+
+13. Which two statements are true about regions and availability domains (ADs)?
+OCI is hosted in one region with multiple availability domains.
+A region can have only one AD for disaster recovery capabilities.
+Regions provide disaster recovery capabilities. (*)
+OCI is hosted in multiple regions and multiple availability domains. (*)
+
+14. What do you use to isolate Oracle Cloud Infrastructure (OCI) resources from different users logically so that they do not update or delete other users' resources?
+Compartments (*)
+Groups
+Availability domain
+Tenancy
+Dynamic groups
+
+15. You want to deploy a mission-critical application in Oracle Cloud Infrastructure (OCI), which must be globally available at all times.
+
+Which deployment strategy must you implement?
+Multi-VCN in two OCI regions
+All availability domains in your home region.
+Multi-region (*)
+Multiple availability domains
+
+16. You want to monitor the timing of high CPU usage by an application.
+
+Which Oracle Cloud Infrastructure (OCI) service should you use?
+Logging Analytics
+Events
+Monitoring (*)
+Logging
+Analytics
+
+17. Which three statements are true about a dedicated region?
+It is used with banking, payments processing, and risk management services. (*)
+It supports applications that have high latency or local data residency requirements.
+It generates near–real time responses to end-user applications or communicates with other on-premises systems. (*)
+It can be used to easily apply analytics and machine learning services to health management systems. (*)
+It is an integrated solution that provides a native VMware-based cloud environment.
+
+18. Which service should you use to manage metadata, which helps to discover data and support data governance?
+Oracle Integration
+Data Integration
+Data Science
+Data Flow
+Data Catalog (*)
+
+19. You have developed an application for your company and you want to deploy it in Oracle Cloud Infrastructure.
+
+How must you deploy the application to ensure the highest level of availability and resilience?
+Across multiple regions and availability domains (*)
+Across multiple Virtual Cloud Networks
+Across multiple availability domains and subnets
+Across multiple availability domains and fault domains
+
+20. Which three components are created along with the Virtual Cloud Network (VCN) by using Start VCN Wizard?
+Object Storage
+Security list (*)
+Route table (*)
+Compute
+Dynamic routing gateway
+Internet gateway (*)
+
+21. What are three benefits of a dedicated region?
+99.95% availability (*)
+Security of the private cloud (*)
+Yearly Flex model for pricing
+Static workloads
+High latency
+Data sovereignty (*)
+
+22. Which three statements are true about the Oracle Cloud Infrastructure (OCI) Object Storage service?
+It enables you to save data in an object storage bucket. (*)
+It does not support private access from OCI resources in a VCN through a service gateway.
+It is a high-performance storage platform that offers reliable and cost-efficient data durability. (*)
+It can store a finite amount of unstructured data, analytical data, and rich content.
+It is tied to a specific compute instance.
+It enables you to store or retrieve data directly from the Internet or from within the cloud platform. (*)
+
+23. Which statement is true about an Oracle Cloud Infrastructure (OCI) Compute instance?
+It cannot leverage the auto-scaling feature.
+It always gets a private IP address. (*)
+It always gets a public IP address.
+It does not use a boot volume.
+
+24. Which two statements are true about Web Application Firewall (WAF)?
+It intercepts HTTP/S traffic and passes it through a set of rules. (*)
+It intercepts HTTP traffic only and filters it against the set rules applied.
+It blocks HTTPS requests only and responds with an error page.
+It protects from attacks over the web application. (*)
+
+25. You want to create a 2-node RAC with block storage, and you will need to scale up the storage in the future.
+
+Which DB system should you use to meet this requirement?
+VM DB system with extreme performance database edition (*)
+Bare metal DB system with any database edition except standard edition
+VM DB system with any database edition except standard edition
+Bare metal DB system with extreme performance database edition only
+
+26. You want to store and manage container images on Oracle Cloud Infrastructure (OCI) and you want to share them with the other developers working on the same application.
+
+Which service should you use?
+Kubernetes cluster
+API Gateway
+Oracle Cloud Infrastructure Registry (OCIR) (*)
+Functions
+
+27. Which two tasks does the Autonomous Database perform by default?
+Firmware patching (*)
+User creation
+Data loading
+Database upgrades (*)
+
+28. Which statement is true about the Oracle Cloud Infrastructure Compute service?
+When you stop a compute instance, all data on the boot volume is lost.
+You cannot attach a block volume to a compute instance.
+You can attach a maximum of one public IP to each compute instance.
+You can launch either virtual machines or bare metal instances. (*)
+
+29. Which service should you use to run Apache Spark applications, which also provides API support for integration with applications and workflows?
+Oracle Integration
+Data Science
+Data Catalog
+Data Integration
+Data Flow (*)
+
+30. Which three pricing models are available for Oracle Cloud Infrastructure?
+Pay as you go (*)
+Annual universal credits (*)
+License included
+Bring your own license (*)
+Yearly Flex
+
+31. You need some Oracle Cloud Infrastructure (OCI) services to build an application; however, you do not want to pay upfront because the usage is not regular and you want to be charged only for the services consumed.
+
+Which pricing model should you choose?
+Bring your own license
+Pay as you go (*)
+Annual Flex
+Monthly Flex
+
+32. What are three benefits of Oracle Cloud Infrastructure as end-to-end service-level agreements?
+Manageability (*)
+Support
+Availability (*)
+Performance (*)
+Reliability
+
+33. Which three are customer's responsibilities in the shared responsibilities model for security?
+IAM framework
+Key management (*)
+VCN configuration (*)
+Physical security
+IAM policies (*)
+Storage isolation
