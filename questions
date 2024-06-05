@@ -1,0 +1,31 @@
+1. explain CI CD workflow in your organization
+2. Have you ever implemented any ci cd pipeline
+3. explain ingress controller
+4. components of kubernetes
+5. what is the version of Jenkins and k8
+6. is your k8 on local or cloud. If on cloud then which cloud and which version
+7. Have you ever created any k8 cluster in production.
+8. advantages of k8 over docker
+9. what are day to day challenges you face in k8 and how you resolve it?
+10. explain any 3 issue where you resolve a problem and what role did you play in that.
+11. explain the type of load balancer 
+12.suppose you have some service which is down. then how do you troubleshoot it?
+13. what are your day to day role in current position?
+14. what actions will you take if there is sudden increase in traffic in k8?
+15. types of deployment strategy and command for deployment rollback? what action you’ll take if there is a deployment failure?
+16. difference b/w NACL and security group?
+17.what is lambda? how you have used it?  what is cold start in lambda? how you can resolve the cold start issue?
+18. difference b/w ec2 and lambda
+19. why pods are called ephemeral in nature?
+20. write a docker file
+21. can one docker file have 2 base image
+22. explain multistage docker
+23. what is aws waf and aws config
+24. what is HPA
+25. How you troubleshoot any issue related to pods?
+26. dofference b/w cmd and entrypoint, difference b/w expose and publish
+27. what is terraform state file
+28. commands that you use in terraform
+29. Diff b/w terraform and ansible
+30. what does continuous deployment and continuous delivery means
+31. what does oom killed means
