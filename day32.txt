@@ -1,0 +1,23 @@
+Sure, here's the script with the timestamps removed:
+
+---
+
+Hello and my name is Abhishek and welcome back to my channel. So first of all, I would like to say sorry for the delay. I was stuck in some other issues so I couldn't upload the video on time, but yeah, it's never too late. So today we are at day 32 of our complete DevOps course, and in this class, I'm going to talk about Kubernetes production systems. What I mean by that is I am going to basically explain to you how DevOps Engineers manage the life cycle, that is, the creation, upgrading, configuration, and deletion of the Kubernetes cluster in production.
+
+So, why is this important? Because when you try to see a lot of people on our channel commenting or people practicing Kubernetes from various sources like Udemy, Academy, or any other popular YouTube channels, most of the time I have seen people are practicing things on Minikube or any other popular local Kubernetes setups like k3s, K3D, or MicroK8s. All of these things are very good platforms for you to learn Kubernetes and explore Kubernetes, but you need to understand that all of them are development environments.
+
+So, even if you go to Kubernetes official documentation, you will see that Minikube is just a local Kubernetes cluster and should not be used in production. So, saying all these things, let's try to understand how organizations, DevOps Engineers, Cloud Engineers manage their Kubernetes clusters in production systems. But before that, you need to understand what is a Kubernetes distribution and what are the popular Kubernetes distributions, because this is where your interview is going to be.
+
+People will not ask you questions on Minikube; people will not ask you questions on k3s, whereas people will ask you what Kubernetes distribution have you used in your production. So, what are these Kubernetes distributions? Firstly, Kubernetes itself. Now, you might ask me, "Abhishek, you just told me that Kubernetes is an open-source software, you don't have support to it." I did not tell you that you don't have support for it, but it's not a managed or it's not a distributed platform provided by any Enterprise like Amazon, Red Hat, or anybody who gives you instant support.
+
+But what Kubernetes brings you is, for a DevOps Engineer, one of the most important things is not just the installation, but you have to deal with upgrades, modifications, you have to deal with deletion of clusters. So, all of these things, which are called as the life cycle of Kubernetes, okay? So, you have a life cycle of Kubernetes that is managed by COPS. So, that is why COPS is one of the most widely used tools for installing Kubernetes.
+
+So, if you're again on Ubuntu, just execute these specific commands. So, I have already done it. If you see in my case, if I just run COPS, you will see that COPS is installed on my machine. Okay, so just follow the steps. That's it. I'm not doing anything more than that. After this comes the interesting parts, that is, you need to grant your AWS CLI IAM user with these specific permissions. If you are using the AWS admin user itself, like in my case, what I have done is, you know, because I am going to perform a demo, and I know that I don't use AWS IAM users in the production, so what I did is I just used the AWS admin user.
+
+So, I have done that because I am using the admin user. I don't have to grant the permissions. But if you are not using the admin user and if you are using the IAM user, you have to provide these roles. Okay, that is EC2 full access, S3 full access, IAM full access, and VPC full access. So, if you are already using an admin user that comes by default with all of these permissions, just run AWS configure, then what COPS requires as a prerequisite is you need to create an S3 bucket.
+
+Now, why do you need to create an S3 bucket? The reason for that is COPS basically is used to manage your hundreds of Kubernetes clusters. And to manage these hundreds of Kubernetes clusters, it is very easy if COPS can store all of the configurations of your Kubernetes clusters in an S3 bucket. So, it just needs a storage service. So, S3 is offered as one of the storage services.
+
+So, you need to just create an S3 bucket. Now, where do you get this access key and secret access? Just go to your AWS dashboard to your top right, you have one section called security credentials. Just go to this, and once you go here, you will see that there is an option for your access Keys. So, if you see here, these are my access keys, and you can create your own access keys as well. Perfect.
+
+So, I have done that because I am using the admin user. I don't have to grant the permissions. But if you are not using the admin user and if you are using the
